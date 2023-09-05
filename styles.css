@@ -1,0 +1,47 @@
+.project-list {
+  list-style: none;
+  font-size: 7mm;
+}
+
+
+body {
+  font-family: "Khula", sans-serif;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(90deg, #4b82bc 30%, #3ca6c3 80%);
+  color: #fff;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  transition: font-size 1s ease;
+}
+
+a:hover {
+  background: linear-gradient(90deg, #ff5e00 30%, #e89145 80%);
+  font-size: 102%;
+} 
+
+h1 {
+  font-size: 15mm;
+}
+
+.project-list li {
+  border: 2px solid #ff9500aa;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
